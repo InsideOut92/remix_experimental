@@ -13,11 +13,11 @@ export default function Settings() {
   
   return (
     <div>
-      <h1>{parentData?.username}'s Settings</h1>
+      <h1>{parentData?.username}'s about page</h1>
       <nav>
         <Link to="/">Back to home</Link>
       </nav>
-      <p>Here we should be able to change the settings.</p>
+      <p>Here we should be see the about page.</p>
     </div>
   );
 }

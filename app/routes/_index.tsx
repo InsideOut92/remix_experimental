@@ -6,7 +6,7 @@ import { useLoaderData } from "@remix-run/react";
 
 // Loader-Funktion, um Daten für die Startseite bereitzustellen
 export const loader: LoaderFunction = () => {
-  return json({ username: "Patrick" });
+  return { username: "Patrick" };
 };
 
 export default function Index() {
