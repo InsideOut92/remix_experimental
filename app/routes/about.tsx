@@ -22,3 +22,11 @@ export default function Settings() {
   );
 }
 
+// TODO: 
+//Add changebable settings to the settings page
+//Add functionality for the parents Data given to the subpages!
+//Increase the look of the site
+//Add a new page
+//Add Errorhandling
+//Implement a database
+//Make the routes "nested"
